@@ -7,12 +7,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 import org.springframework.lang.Nullable;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Table(name = "comment")
 @Entity
 @NoArgsConstructor
 @Data
